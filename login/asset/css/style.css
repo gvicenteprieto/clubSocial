@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo {
+  min-height: 100vh;
+  background-color: #924242;
+}
+.fondo_menu {
+  background-color: #6c747c;
+}
+
+.boton_nav-log {
+  color: white;
+  border: 1px solid #ffffff;
+  /* margin-left : 15px; */
+  text-decoration: none;
+  padding: 6px 6px;
+  border-radius: 6px;
+  transition: 0.2s;
+  background-color: #17874f;
+}
+
+.boton_nav-sign {
+  color: white;
+  border: 1px solid #ffffff;
+  margin-left: 15px;
+  text-decoration: none;
+  padding: 6px 6px;
+  border-radius: 6px;
+  transition: 0.2s;
+  background-color: #0d6dff;
+}
+
+.boton_nav-log:hover {
+  border: 2px solid #17874f;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.boton_nav-sign:hover {
+  border: 2px solid #0d6dff;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.fondo_login {
+  background-color: #000000e6;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.login {
+  color: white;
+  margin: auto;
+  border: 1px solid #808080;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #332f2f;
+}
+
+.icono,
+.titulo {
+  text-align: center;
+  color: #ffffff;
+}
+.titulo {
+  margin-bottom: 10px;
+}
+
+.icono,
+.icono_login {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #5dbefb;
+}
+
+.ojoVisor {
+  position: relative;
+}
+
+.ojoVisor button {
+  border: none;
+  position: absolute;
+}
+
+.changePass {
+  position: absolute;
+  top: 12px;
+  left: 270px;
+  color: #5dbefb;
+  cursor: pointer;
+}
